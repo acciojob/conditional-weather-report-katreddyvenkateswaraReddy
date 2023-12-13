@@ -7,7 +7,7 @@ const WeatherApp = ({ temperature,conditions}) =>{
   return (
     <div>
       <h1>Weather App</h1>
-      <p>Temperature: <span style={{ color: temperatureColor }}>{temperature}°C</span></p>
+      <p>Temperature: <span style={{ color: temperatureColor }}>{temperature}</span></p>
       <p>Conditions: {conditions}</p>
     </div>
   );

@@ -6,10 +6,6 @@ import WeatherApp from "./WeatherApp";
 const weatherData = [{
   temperature: 25,
   conditions: 'Sunny'
-},
-{
-  temperature: 20,
-  conditions: 'Sunny'
 }]
 
 const App = () => {
